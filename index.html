@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kukiku</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- CSS External Links -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <a href="#" class="navbar-logo">kukiku.</a>
+
+        <div class="navbar-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#menu">Our Menu</a>
+          <a href="#contact">Massage Us</a>
+        </div>
+
+        <div class="navbar-extra">
+          <a href="#" id="search"><i data-feather="search"></i></a>
+          <a href="#" id="shopping-cart"
+            ><i data-feather="shopping-cart"></i
+          ></a>
+          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+    </header>
+
+    <!-- Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="JS/script.js"></script>
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1 id="greeting"></h1>
+        <p>
+          Rumahnya cookies sehat, lezat, dan bebas gluten. <br />
+          Dibuat dengan cinta, untuk kamu yang peduli rasa dan kesehatan.
+        </p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2>Tentang Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/cookie2.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Harus Kukiku?</h3>
+          <p>
+            Karena Kukiku bukan sekadar kuki. Kami percaya bahwa makanan lezat
+            juga bisa menyehatkan. Di setiap gigitan Kukiku, kamu akan merasakan
+            kombinasi sempurna antara rasa yang nikmat dan bahan-bahan yang aman
+            untuk tubuh. Dibuat tanpa gluten dan dengan bahan pilihan, Kukiku
+            hadir untuk kamu yang peduli kesehatan tanpa ingin kehilangan cita
+            rasa. Kami membuat setiap kuki dengan cinta, agar bisa menemani
+            harimu dengan rasa yang manis, hangat, dan penuh makna.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2>Menu Kami</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="img/cookie1.jpg" alt="Choco Kuki" />
+          <h3>Choco Kuki</h3>
+          <p>Lezatnya cokelat dalam setiap gigitan.</p>
+        </div>
+        <div class="menu-item">
+          <img src="img/cookie2.jpg" alt="Salt Kuki" />
+          <h3>Salt Kuki</h3>
+          <p>Renyah dan kaya manis dan gurih.</p>
+        </div>
+        <div class="menu-item">
+          <img src="img/cookie3.jpg" alt="Cinnamon Kuki" />
+          <h3>Cinnamon Kuki</h3>
+          <p>Aroma cinnamon yang sempurna untuk camilan sehat.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Contact Section Start-->
+    <section id="contact" class="contact">
+      <div class="contact-container">
+        <div class="contact-form">
+          <h2>Hubungi Kami</h2>
+          <form id="contactForm">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="phone">Nomor Telepon</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="address">Alamat</label>
+            <textarea id="address" name="address" rows="2" required></textarea>
+
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Kirim</button>
+          </form>
+        </div>
+        <div class="contact-image">
+          <img src="img/cookie1.jpg" alt="Cookie Contact" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section End-->
+    <footer>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>kukiku.</h3>
+            <p>Kuki sehat bebas gluten, dibuat dengan cinta dan rasa.</p>
+          </div>
+          <div class="footer-nav">
+            <h4>Navigasi</h4>
+            <ul>
+              <li><a href="#home">Beranda</a></li>
+              <li><a href="#about">Tentang Kami</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Ikuti Kami</h4>
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="mail"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Kukiku. Semua hak cipta dilindungi.</p>
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>
